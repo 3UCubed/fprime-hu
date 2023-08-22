@@ -1,0 +1,15 @@
+!SESSION 2023-08-22 13:45:54.935 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-22 13:46:40.811
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-22 13:46:40.814
+!MESSAGE Log4j2 initialized with config file /home/fp2admin/Desktop/fprime-hu/BLINKFTOSv100/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-22 13:46:48.825
+!MESSAGE Started RMI Server, listening on port 41337

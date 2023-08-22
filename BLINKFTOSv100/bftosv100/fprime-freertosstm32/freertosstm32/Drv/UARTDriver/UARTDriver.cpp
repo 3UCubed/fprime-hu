@@ -8,13 +8,13 @@
 #include <freertosstm32/Drv/UARTDriver/UARTDriver.hpp>
 #include <FpConfig.hpp>
 
-Drv::UARTDriver::s_driver = nullptr;
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
   FW_ASSERT(Drv::UARTDriver::s_driver != nullptr);
   Drv::UARTDriver::s_driver->receive();
 }
 namespace Drv {
+  UARTDriver* UARTDriver::s_driver = nullptr;
 
   // ----------------------------------------------------------------------
   // Construction, initialization, and destruction
@@ -35,42 +35,44 @@ namespace Drv {
   }
 
   bool UARTDriver ::open(UART_HandleTypeDef *device, U32 baud) {
-    device->Init.BaudRate = baud;
-    device->Init.WordLength = UART_WORDLENGTH_8B;
-    device->Init.StopBits = UART_STOPBITS_1;
-    device->Init.Parity = UART_PARITY_NONE;
-    device->Init.Mode = UART_MODE_TX_RX;
-    device->Init.HwFlowCtl = UART_HWCONTROL_NONE;
-    device->Init.OverSampling = UART_OVERSAMPLING_16;
-    device->Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-    device->Init.ClockPrescaler = UART_PRESCALER_DIV1;
-    device->AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-    if (HAL_UART_Init(device) != HAL_OK)
-    {
-      return false;
-    }
-    if (HAL_UARTEx_SetTxFifoThreshold(device, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
-    {
-      return false;
-    }
-    if (HAL_UARTEx_SetRxFifoThreshold(device, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
-    {
-      return false;
-    }
-    if (HAL_UARTEx_DisableFifoMode(device) != HAL_OK)
-    {
-      return false;
-    }
+    // device->Init.BaudRate = baud;
+    // device->Init.WordLength = UART_WORDLENGTH_8B;
+    // device->Init.StopBits = UART_STOPBITS_1;
+    // device->Init.Parity = UART_PARITY_NONE;
+    // device->Init.Mode = UART_MODE_TX_RX;
+    // device->Init.HwFlowCtl = UART_HWCONTROL_NONE;
+    // device->Init.OverSampling = UART_OVERSAMPLING_16;
+    // device->Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+    // device->Init.ClockPrescaler = UART_PRESCALER_DIV1;
+    // device->AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+    // if (HAL_UART_Init(device) != HAL_OK)
+    // {
+    //   return false;
+    // }
+    // if (HAL_UARTEx_SetTxFifoThreshold(device, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+    // {
+    //   return false;
+    // }
+    // if (HAL_UARTEx_SetRxFifoThreshold(device, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+    // {
+    //   return false;
+    // }
+    // if (HAL_UARTEx_DisableFifoMode(device) != HAL_OK)
+    // {
+    //   return false;
+    // }
+    this->device = device;
     s_driver = this;
     HAL_UART_Receive_IT(this->device, &this->readByte, 1);
+  
     return true;
   }
   
 void UARTDriver ::receive () {
 
-    Drv::RecvStatus status = RecvStatus::RECV_ERROR;
+    Drv::RecvStatus status = RecvStatus::RECV_OK;
     Fw::Buffer readBuffer(&this->readByte, 1);
-    this->send_out(0, readBuffer);
+    this->recv_out(0, readBuffer, status);
     HAL_UART_Receive_IT(this->device, &this->readByte, 1);
 
 }

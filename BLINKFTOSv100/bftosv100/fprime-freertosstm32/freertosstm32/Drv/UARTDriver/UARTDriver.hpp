@@ -9,7 +9,7 @@
 
 #include "freertosstm32/Drv/UARTDriver/UARTDriverComponentAc.hpp"
 
-#include "stm32h7xx_hal_uart.h"
+#include "stm32h7xx.h"
 
 namespace Drv {
 
@@ -19,6 +19,7 @@ namespace Drv {
 
     public:
       static UARTDriver* s_driver;
+
       // ----------------------------------------------------------------------
       // Construction, initialization, and destruction
       // ----------------------------------------------------------------------
@@ -47,7 +48,7 @@ namespace Drv {
           const NATIVE_INT_TYPE portNum, /*!< The port number*/
           Fw::Buffer &sendBuffer 
       );
-      char readByte;
+      U8 readByte;
       UART_HandleTypeDef* device;
 
     };

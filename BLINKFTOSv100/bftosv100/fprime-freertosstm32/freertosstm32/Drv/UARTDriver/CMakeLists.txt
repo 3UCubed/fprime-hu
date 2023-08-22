@@ -19,4 +19,9 @@ set(SOURCE_FILES
 # )
 
 register_fprime_module()
-target_include_directories("${FPRIME_CURRENT_MODULE}" PUBLIC "${STM_LOCATION}/Drivers/STM32H7xx_HAL_Driver/Inc/" "${STM_LOCATION}/Core/Inc/" "${STM_LOCATION}/Drivers/CMSIS/Device/ST/STM32H7xx/Include")
+target_include_directories(
+    "${FPRIME_CURRENT_MODULE}" PUBLIC 
+    "${STM_LOCATION}/Drivers/STM32H7xx_HAL_Driver/Inc/" 
+    "${STM_LOCATION}/Core/Inc/" 
+    "${STM_LOCATION}/Drivers/CMSIS/Include"
+    "${STM_LOCATION}/Drivers/CMSIS/Device/ST/STM32H7xx/Include")

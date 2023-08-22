@@ -11,6 +11,7 @@
 #include "bftosv100Deployment/Top/FppConstantsAc.hpp"
 #include "Svc/FramingProtocol/FprimeProtocol.hpp"
 #include "Svc/Health/Health.hpp"
+#include "stm32h7xx.h"
 
 // Definitions are placed within a namespace named after the deployment
 namespace bftosv100Deployment {
@@ -24,8 +25,7 @@ namespace bftosv100Deployment {
  * fields, which are derived by command line inputs.
  */
 struct TopologyState {
-    const char* hostname;
-    U32 port;
+    UART_HandleTypeDef* uart;
 };
 
 /**

@@ -152,12 +152,7 @@ void setupTopology(const TopologyState& state) {
     // Autocoded task kick-off (active components). Function provided by autocoder.
     startTasks(state);
     // Initialize socket client communication if and only if there is a valid specification
-    if (state.hostname != nullptr && state.port != 0) {
-        Os::TaskString name("ReceiveTask");
-        // Uplink is configured for receive so a socket task is started
-        comDriver.configure(state.hostname, state.port);
-        comDriver.startSocketTask(name, true, COMM_PRIORITY, Default::STACK_SIZE);
-    }
+    comDriver.open(state.uart, 115200);
 }
 
 // Variables used for cycle simulation
@@ -192,8 +187,8 @@ void teardownTopology(const TopologyState& state) {
     freeThreads(state);
 
     // Other task clean-up.
-    comDriver.stopSocketTask();
-    (void)comDriver.joinSocketTask(nullptr);
+    // comDriver.stopSocketTask();
+    // (void)comDriver.joinSocketTask(nullptr);
 
     // Resource deallocation
     cmdSeq.deallocateBuffer(mallocator);
