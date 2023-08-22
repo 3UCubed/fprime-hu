@@ -2,3 +2,6 @@
 	path = BLINKFTOSv100/bftosv100/fprime
 	url = https://github.com/nasa/fprime.git
 	branch = devel
+[submodule "BLINKFTOSv100/bftosv100/fprime"]
+	path = BLINKFTOSv100/bftosv100/fprime
+	url = https://github.com/nasa/fprime.git
