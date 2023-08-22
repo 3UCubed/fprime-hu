@@ -86,10 +86,86 @@
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.533809190" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.2070378270" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}/STM32H753XIHX_FLASH.ld}" valueType="string"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.214175366" name="Libraries (-l)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="CFDP_Checksum"/>
 									<listOptionValue builtIn="false" value="bftosv100Deployment_Top"/>
+									<listOptionValue builtIn="false" value="Components_Emptybftosv100"/>
+									<listOptionValue builtIn="false" value="config"/>
+									<listOptionValue builtIn="false" value="Drv_BlockDriver"/>
+									<listOptionValue builtIn="false" value="Drv_ByteStreamDriverModel"/>
+									<listOptionValue builtIn="false" value="Drv_DataTypes"/>
+									<listOptionValue builtIn="false" value="Drv_GpioDriverPorts"/>
+									<listOptionValue builtIn="false" value="Drv_I2cDriverPorts"/>
+									<listOptionValue builtIn="false" value="Drv_SpiDriverPorts"/>
+									<listOptionValue builtIn="false" value="Drv_StreamCrossover"/>
+									<listOptionValue builtIn="false" value="fprime-freertosstm32_Os"/>
+									<listOptionValue builtIn="false" value="freertosstm32_FreeRTOSstm32Time"/>
+									<listOptionValue builtIn="false" value="Fw_Buffer"/>
+									<listOptionValue builtIn="false" value="Fw_Cfg"/>
+									<listOptionValue builtIn="false" value="Fw_Cmd"/>
+									<listOptionValue builtIn="false" value="Fw_Com"/>
+									<listOptionValue builtIn="false" value="Fw_Comp"/>
+									<listOptionValue builtIn="false" value="Fw_CompQueued"/>
+									<listOptionValue builtIn="false" value="Fw_FilePacket"/>
+									<listOptionValue builtIn="false" value="Fw_Log"/>
+									<listOptionValue builtIn="false" value="Fw_Logger"/>
+									<listOptionValue builtIn="false" value="Fw_Obj"/>
+									<listOptionValue builtIn="false" value="Fw_Port"/>
+									<listOptionValue builtIn="false" value="Fw_Ports_SuccessCondition"/>
+									<listOptionValue builtIn="false" value="Fw_Prm"/>
+									<listOptionValue builtIn="false" value="Fw_SerializableFile"/>
+									<listOptionValue builtIn="false" value="Fw_Test"/>
+									<listOptionValue builtIn="false" value="Fw_Time"/>
+									<listOptionValue builtIn="false" value="Fw_Tlm"/>
+									<listOptionValue builtIn="false" value="Fw_Types"/>
+									<listOptionValue builtIn="false" value="Os"/>
+									<listOptionValue builtIn="false" value="Svc_ActiveLogger"/>
+									<listOptionValue builtIn="false" value="Svc_ActiveRateGroup"/>
+									<listOptionValue builtIn="false" value="Svc_ActiveTextLogger"/>
+									<listOptionValue builtIn="false" value="Svc_AssertFatalAdapter"/>
+									<listOptionValue builtIn="false" value="Svc_BufferLogger"/>
+									<listOptionValue builtIn="false" value="Svc_BufferManager"/>
+									<listOptionValue builtIn="false" value="Svc_BufferRepeater"/>
+									<listOptionValue builtIn="false" value="Svc_CmdDispatcher"/>
+									<listOptionValue builtIn="false" value="Svc_CmdSequencer"/>
+									<listOptionValue builtIn="false" value="Svc_CmdSplitter"/>
+									<listOptionValue builtIn="false" value="Svc_ComLogger"/>
+									<listOptionValue builtIn="false" value="Svc_ComQueue"/>
+									<listOptionValue builtIn="false" value="Svc_ComSplitter"/>
+									<listOptionValue builtIn="false" value="Svc_ComStub"/>
+									<listOptionValue builtIn="false" value="Svc_Cycle"/>
+									<listOptionValue builtIn="false" value="Svc_Deframer"/>
+									<listOptionValue builtIn="false" value="Svc_Fatal"/>
+									<listOptionValue builtIn="false" value="Svc_FatalHandler"/>
+									<listOptionValue builtIn="false" value="Svc_FileDownlink"/>
+									<listOptionValue builtIn="false" value="Svc_FileDownlinkPorts"/>
+									<listOptionValue builtIn="false" value="Svc_FileManager"/>
+									<listOptionValue builtIn="false" value="Svc_FileUplink"/>
+									<listOptionValue builtIn="false" value="Svc_Framer"/>
+									<listOptionValue builtIn="false" value="Svc_FramingProtocol"/>
+									<listOptionValue builtIn="false" value="Svc_GenericHub"/>
+									<listOptionValue builtIn="false" value="Svc_GroundInterface"/>
+									<listOptionValue builtIn="false" value="Svc_Health"/>
+									<listOptionValue builtIn="false" value="Svc_PassiveConsoleTextLogger"/>
+									<listOptionValue builtIn="false" value="Svc_PassiveRateGroup"/>
+									<listOptionValue builtIn="false" value="Svc_Ping"/>
+									<listOptionValue builtIn="false" value="Svc_PolyDb"/>
+									<listOptionValue builtIn="false" value="Svc_PolyIf"/>
+									<listOptionValue builtIn="false" value="Svc_PrmDb"/>
+									<listOptionValue builtIn="false" value="Svc_RateGroupDriver"/>
+									<listOptionValue builtIn="false" value="Svc_Sched"/>
+									<listOptionValue builtIn="false" value="Svc_Seq"/>
+									<listOptionValue builtIn="false" value="Svc_StaticMemory"/>
+									<listOptionValue builtIn="false" value="Svc_SystemResources"/>
+									<listOptionValue builtIn="false" value="Svc_Time"/>
+									<listOptionValue builtIn="false" value="Svc_TlmChan"/>
+									<listOptionValue builtIn="false" value="Svc_TlmPacketizer"/>
+									<listOptionValue builtIn="false" value="Svc_WatchDog"/>
+									<listOptionValue builtIn="false" value="Utils"/>
+									<listOptionValue builtIn="false" value="Utils_Hash"/>
+									<listOptionValue builtIn="false" value="Utils_Types"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.1872253489" name="Library search path (-L)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" useByScannerDiscovery="false" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bftosv100/build-fprime-automatic-freertosstm32/lib/freertosstm32}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/fp2admin/Desktop/fprime-hu/BLINKFTOSv100/bftosv100/build-fprime-automatic-freertosstm32/lib/freertosstm32"/>
 								</option>
 								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup.1998342586" name="Place libraries in a linker group (-Wl,--start-group $(LIBS) -Wl,--end-group)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.uselinkergroup" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1220242105" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
@@ -225,5 +301,12 @@
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/BLINKFTOSv100"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/BLINKFTOSv100"/>
+		</configuration>
+	</storageModule>
 </cproject>

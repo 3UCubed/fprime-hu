@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_AssertFatalAdapter.a CMakeFiles/Svc_AssertFatalAdapter.dir/AssertFatalAdapterComponentImpl.cpp.obj CMakeFiles/Svc_AssertFatalAdapter.dir/AssertFatalAdapterComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_AssertFatalAdapter.a

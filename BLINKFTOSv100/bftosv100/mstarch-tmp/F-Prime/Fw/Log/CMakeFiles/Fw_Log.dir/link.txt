@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Log.a CMakeFiles/Fw_Log.dir/LogBuffer.cpp.obj CMakeFiles/Fw_Log.dir/LogPacket.cpp.obj CMakeFiles/Fw_Log.dir/LogString.cpp.obj CMakeFiles/Fw_Log.dir/TextLogString.cpp.obj CMakeFiles/Fw_Log.dir/LogPortAc.cpp.obj CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.obj CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Log.a

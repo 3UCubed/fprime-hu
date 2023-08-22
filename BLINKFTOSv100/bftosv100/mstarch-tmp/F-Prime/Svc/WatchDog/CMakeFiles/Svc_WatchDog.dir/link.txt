@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_WatchDog.a CMakeFiles/Svc_WatchDog.dir/WatchDogPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_WatchDog.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_ActiveTextLogger.a CMakeFiles/Svc_ActiveTextLogger.dir/ActiveTextLoggerImpl.cpp.obj CMakeFiles/Svc_ActiveTextLogger.dir/LogFile.cpp.obj CMakeFiles/Svc_ActiveTextLogger.dir/ActiveTextLoggerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_ActiveTextLogger.a

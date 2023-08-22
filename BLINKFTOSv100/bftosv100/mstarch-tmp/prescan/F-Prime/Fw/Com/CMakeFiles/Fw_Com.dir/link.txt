@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Com.a CMakeFiles/Fw_Com.dir/__/__/cmake/empty.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Com.a

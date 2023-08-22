@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_CmdSplitter.a CMakeFiles/Svc_CmdSplitter.dir/CmdSplitter.cpp.obj CMakeFiles/Svc_CmdSplitter.dir/CmdSplitterComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_CmdSplitter.a

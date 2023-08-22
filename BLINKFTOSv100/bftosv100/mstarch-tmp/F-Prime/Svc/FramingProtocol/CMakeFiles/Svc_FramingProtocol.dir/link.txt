@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_FramingProtocol.a CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.obj CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.obj CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_FramingProtocol.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_CompQueued.a CMakeFiles/Fw_CompQueued.dir/QueuedComponentBase.cpp.obj CMakeFiles/Fw_CompQueued.dir/ActiveComponentBase.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_CompQueued.a

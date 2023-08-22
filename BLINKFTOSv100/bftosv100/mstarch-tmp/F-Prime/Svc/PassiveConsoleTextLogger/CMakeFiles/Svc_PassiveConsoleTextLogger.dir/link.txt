@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_PassiveConsoleTextLogger.a CMakeFiles/Svc_PassiveConsoleTextLogger.dir/ConsoleTextLoggerImplCommon.cpp.obj CMakeFiles/Svc_PassiveConsoleTextLogger.dir/PassiveTextLoggerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_PassiveConsoleTextLogger.a

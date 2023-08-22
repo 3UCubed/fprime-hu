@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libUtils_Types.a CMakeFiles/Utils_Types.dir/__/__/cmake/empty.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libUtils_Types.a

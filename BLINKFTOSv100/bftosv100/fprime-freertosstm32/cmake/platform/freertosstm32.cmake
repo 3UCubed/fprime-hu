@@ -75,7 +75,7 @@ set(COMPILER_COMMON_FLAGS
     -mthumb \
     -mfpu=fpv5-sp-d16 \
     -mfloat-abi=hard \
-    -DSTM32H753xx \
+    -DSTM32H743xx \
     --specs=nano.specs -Wl,--gc-sections"
     )    
 set(CMAKE_C_FLAGS

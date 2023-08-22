@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_FileManager.a CMakeFiles/Svc_FileManager.dir/FileManager.cpp.obj CMakeFiles/Svc_FileManager.dir/FileManagerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_FileManager.a

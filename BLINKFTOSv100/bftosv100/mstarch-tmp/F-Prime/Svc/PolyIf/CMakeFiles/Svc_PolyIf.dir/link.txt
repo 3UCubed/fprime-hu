@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_PolyIf.a CMakeFiles/Svc_PolyIf.dir/MeasurementStatusEnumAc.cpp.obj CMakeFiles/Svc_PolyIf.dir/PolyPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_PolyIf.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_StaticMemory.a CMakeFiles/Svc_StaticMemory.dir/StaticMemoryComponentImpl.cpp.obj CMakeFiles/Svc_StaticMemory.dir/StaticMemoryComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_StaticMemory.a

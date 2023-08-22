@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../lib/freertosstm32/libUtils.a CMakeFiles/Utils.dir/RateLimiter.cpp.obj CMakeFiles/Utils.dir/TokenBucket.cpp.obj CMakeFiles/Utils.dir/LockGuard.cpp.obj CMakeFiles/Utils.dir/CRCChecker.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../lib/freertosstm32/libUtils.a

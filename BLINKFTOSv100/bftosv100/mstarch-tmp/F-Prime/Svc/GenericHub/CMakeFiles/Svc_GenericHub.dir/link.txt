@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_GenericHub.a CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.obj CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_GenericHub.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Prm.a CMakeFiles/Fw_Prm.dir/PrmBuffer.cpp.obj CMakeFiles/Fw_Prm.dir/PrmString.cpp.obj CMakeFiles/Fw_Prm.dir/ParamValidEnumAc.cpp.obj CMakeFiles/Fw_Prm.dir/PrmGetPortAc.cpp.obj CMakeFiles/Fw_Prm.dir/PrmSetPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Prm.a

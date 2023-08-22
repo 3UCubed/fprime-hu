@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_CmdDispatcher.a CMakeFiles/Svc_CmdDispatcher.dir/__/__/cmake/empty.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_CmdDispatcher.a

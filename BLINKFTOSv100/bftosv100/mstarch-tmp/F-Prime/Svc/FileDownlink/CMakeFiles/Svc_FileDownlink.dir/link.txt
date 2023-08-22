@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_FileDownlink.a CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.obj CMakeFiles/Svc_FileDownlink.dir/File.cpp.obj CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.obj CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_FileDownlink.a

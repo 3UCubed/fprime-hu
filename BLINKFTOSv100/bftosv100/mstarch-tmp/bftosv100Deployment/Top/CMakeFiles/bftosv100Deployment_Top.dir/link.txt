@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../lib/freertosstm32/libbftosv100Deployment_Top.a CMakeFiles/bftosv100Deployment_Top.dir/bftosv100DeploymentTopology.cpp.obj CMakeFiles/bftosv100Deployment_Top.dir/FppConstantsAc.cpp.obj CMakeFiles/bftosv100Deployment_Top.dir/Ports_RateGroupsEnumAc.cpp.obj CMakeFiles/bftosv100Deployment_Top.dir/bftosv100DeploymentTopologyAc.cpp.obj CMakeFiles/bftosv100Deployment_Top.dir/bftosv100DeploymentPacketsAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../lib/freertosstm32/libbftosv100Deployment_Top.a

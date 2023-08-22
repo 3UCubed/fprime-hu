@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Buffer.a CMakeFiles/Fw_Buffer.dir/Buffer.cpp.obj CMakeFiles/Fw_Buffer.dir/BufferGetPortAc.cpp.obj CMakeFiles/Fw_Buffer.dir/BufferSendPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Buffer.a

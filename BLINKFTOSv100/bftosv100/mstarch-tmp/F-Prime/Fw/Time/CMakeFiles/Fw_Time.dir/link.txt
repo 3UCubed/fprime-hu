@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Time.a CMakeFiles/Fw_Time.dir/Time.cpp.obj CMakeFiles/Fw_Time.dir/TimePortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Time.a

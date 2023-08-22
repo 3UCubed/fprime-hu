@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libDrv_GpioDriverPorts.a CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.obj CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libDrv_GpioDriverPorts.a

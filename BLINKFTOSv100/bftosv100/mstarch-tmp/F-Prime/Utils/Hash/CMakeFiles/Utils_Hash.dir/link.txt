@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libUtils_Hash.a CMakeFiles/Utils_Hash.dir/libcrc/CRC32.cpp.obj CMakeFiles/Utils_Hash.dir/libcrc/lib_crc.c.obj CMakeFiles/Utils_Hash.dir/HashBufferCommon.cpp.obj CMakeFiles/Utils_Hash.dir/HashCommon.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libUtils_Hash.a

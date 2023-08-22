@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Logger.a CMakeFiles/Fw_Logger.dir/Logger.cpp.obj CMakeFiles/Fw_Logger.dir/LogAssert.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Logger.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_PassiveRateGroup.a CMakeFiles/Svc_PassiveRateGroup.dir/PassiveRateGroup.cpp.obj CMakeFiles/Svc_PassiveRateGroup.dir/PassiveRateGroupComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_PassiveRateGroup.a

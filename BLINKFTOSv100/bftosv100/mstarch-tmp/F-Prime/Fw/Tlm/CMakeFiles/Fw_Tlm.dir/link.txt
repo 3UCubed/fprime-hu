@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Tlm.a CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.obj CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.obj CMakeFiles/Fw_Tlm.dir/TlmString.cpp.obj CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.obj CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Tlm.a

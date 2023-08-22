@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libDrv_DataTypes.a CMakeFiles/Drv_DataTypes.dir/DataBuffer.cpp.obj CMakeFiles/Drv_DataTypes.dir/DataBufferPortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libDrv_DataTypes.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libDrv_BlockDriver.a CMakeFiles/Drv_BlockDriver.dir/BlockDriverImpl.cpp.obj CMakeFiles/Drv_BlockDriver.dir/BlockDriverComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libDrv_BlockDriver.a

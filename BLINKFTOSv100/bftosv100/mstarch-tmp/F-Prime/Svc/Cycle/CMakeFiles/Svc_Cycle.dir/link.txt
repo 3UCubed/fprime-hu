@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_Cycle.a CMakeFiles/Svc_Cycle.dir/TimerVal.cpp.obj CMakeFiles/Svc_Cycle.dir/CyclePortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_Cycle.a

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../lib/freertosstm32/libfprime-freertosstm32_Os.a CMakeFiles/fprime-freertosstm32_Os.dir/__/__/__/fprime/cmake/empty.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../lib/freertosstm32/libfprime-freertosstm32_Os.a

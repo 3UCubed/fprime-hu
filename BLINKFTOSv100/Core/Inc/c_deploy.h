@@ -11,14 +11,9 @@ extern "C"  {
 
 #ifndef INC_C_DEPLOY_H_
 #define INC_C_DEPLOY_H_
+#include "stm32h7xx.h"
 
-struct deploy_handle_t;
-typedef struct deploy_handle_t* deploy_handle;
-deploy_handle mydeploy_deploy_create();
-void mydeploy_deploy_setinputs(deploy_handle h);
-void mydeploy_deploy_destroy(deploy_handle h);
-
-
+void launch_topology(UART_HandleTypeDef* handle);
 
 #endif /* INC_C_DEPLOY_H_ */
 

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_FileDownlinkPorts.a CMakeFiles/Svc_FileDownlinkPorts.dir/SendFileCompletePortAc.cpp.obj CMakeFiles/Svc_FileDownlinkPorts.dir/SendFileRequestPortAc.cpp.obj CMakeFiles/Svc_FileDownlinkPorts.dir/SendFileResponseSerializableAc.cpp.obj CMakeFiles/Svc_FileDownlinkPorts.dir/SendFileStatusEnumAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_FileDownlinkPorts.a

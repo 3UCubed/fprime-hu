@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_ActiveLogger.a CMakeFiles/Svc_ActiveLogger.dir/ActiveLoggerImpl.cpp.obj CMakeFiles/Svc_ActiveLogger.dir/ActiveLoggerComponentAc.cpp.obj CMakeFiles/Svc_ActiveLogger.dir/ActiveLogger_EnabledEnumAc.cpp.obj CMakeFiles/Svc_ActiveLogger.dir/ActiveLogger_FilterSeverityEnumAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_ActiveLogger.a

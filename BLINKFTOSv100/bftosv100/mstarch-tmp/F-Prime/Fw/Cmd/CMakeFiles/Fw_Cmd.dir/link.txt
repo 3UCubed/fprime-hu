@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Cmd.a CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdString.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.obj CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Cmd.a

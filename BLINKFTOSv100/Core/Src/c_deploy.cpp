@@ -8,22 +8,10 @@
 #include "c_deploy.h"
 #include <bftosv100Deployment/Top/bftosv100DeploymentTopology.hpp>
 
-struct deploy_handle_t
-{
-	bftosv100Deployment::TopologyState inputs;
-};
 
-deploy_handle mydeploy_deploy_create()
-{
-	return new deploy_handle_t;
-}
-
-void mydeploy_deploy_setinputs(deploy_handle h)
-{
-	U32 port_number = 0;
-//	h->port = port_number;
-}
-void mydeploy_deploy_destroy(deploy_handle h)
-{
-	delete h;
+void launch_topology(UART_HandleTypeDef* handle) {
+	bftosv100Deployment::TopologyState state;
+	state.uart = handle;
+	bftosv100Deployment::setupTopology(state);
+	while (1) {}
 }

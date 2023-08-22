@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../lib/freertosstm32/libfreertosstm32_FreeRTOSstm32Time.a CMakeFiles/freertosstm32_FreeRTOSstm32Time.dir/__/__/__/fprime/cmake/empty.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../lib/freertosstm32/libfreertosstm32_FreeRTOSstm32Time.a

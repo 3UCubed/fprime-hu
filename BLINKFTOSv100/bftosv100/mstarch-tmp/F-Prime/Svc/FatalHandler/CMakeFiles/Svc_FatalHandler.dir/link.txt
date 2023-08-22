@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_FatalHandler.a CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentCommonImpl.cpp.obj CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentLinuxImpl.cpp.obj CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_FatalHandler.a

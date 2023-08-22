@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_SystemResources.a CMakeFiles/Svc_SystemResources.dir/SystemResources.cpp.obj CMakeFiles/Svc_SystemResources.dir/SystemResourceEnabledEnumAc.cpp.obj CMakeFiles/Svc_SystemResources.dir/SystemResourcesComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_SystemResources.a

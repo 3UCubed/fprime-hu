@@ -1,0 +1,2 @@
+/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/bftosv100/fprime/Fw/Log/Log.fpp
+/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/bftosv100/fprime/Svc/AssertFatalAdapter/AssertFatalEvents.fppi

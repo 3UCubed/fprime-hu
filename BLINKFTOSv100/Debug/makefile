@@ -76,7 +76,7 @@ main-build: BLINKFTOSv100.elf secondary-outputs
 
 # Tool invocations
 BLINKFTOSv100.elf BLINKFTOSv100.map: $(OBJS) $(USER_OBJS) /home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/STM32H753XIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "BLINKFTOSv100.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m7 -T"/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/STM32H753XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLINKFTOSv100.map" -Wl,--gc-sections -static -L"/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/bftosv100/build-fprime-automatic-freertosstm32/lib/freertosstm32" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "BLINKFTOSv100.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m7 -T"/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/STM32H753XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLINKFTOSv100.map" -Wl,--gc-sections -static -L/home/fp2admin/Desktop/fprime-hu/BLINKFTOSv100/bftosv100/build-fprime-automatic-freertosstm32/lib/freertosstm32 --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

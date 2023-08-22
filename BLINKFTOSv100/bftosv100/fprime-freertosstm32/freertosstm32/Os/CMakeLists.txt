@@ -1,22 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
-
-set(SOURCE_FILES
-    "${FPRIME_FRAMEWORK_PATH}/Os/IntervalTimerCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/TaskString.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/TaskCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/QueueCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/QueueString.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/IPCQueueCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/SimpleQueueRegistry.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/MemCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/ValidateFileCommon.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/ValidatedFile.cpp"
-    "${FPRIME_FRAMEWORK_PATH}/Os/FileCommon.cpp"
-)
-
 if (${CMAKE_SYSTEM_NAME} STREQUAL "freertosstm32")
-    list(APPEND SOURCE_FILES
+    set(SOURCE_FILES
         # Common implementations
         # "${FPRIME_FRAMEWORK_PATH}/Os/LogPrintf.cpp"
         "${FPRIME_FRAMEWORK_PATH}/Os/Pthreads/BufferQueueCommon.cpp"

@@ -1,0 +1,2 @@
+/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/bftosv100/fprime/Svc/ComLogger/Commands.fppi
+/home/fp2admin/STM32CubeIDE/workv101/BLINKFTOSv100/bftosv100/fprime/Svc/ComLogger/Events.fppi

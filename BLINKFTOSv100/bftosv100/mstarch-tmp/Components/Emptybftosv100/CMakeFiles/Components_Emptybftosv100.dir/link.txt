@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../lib/freertosstm32/libComponents_Emptybftosv100.a CMakeFiles/Components_Emptybftosv100.dir/Emptybftosv100.cpp.obj CMakeFiles/Components_Emptybftosv100.dir/Emptybftosv100ComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../lib/freertosstm32/libComponents_Emptybftosv100.a

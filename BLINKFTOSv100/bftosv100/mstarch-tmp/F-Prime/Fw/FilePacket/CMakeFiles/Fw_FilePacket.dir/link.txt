@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_FilePacket.a CMakeFiles/Fw_FilePacket.dir/CancelPacket.cpp.obj CMakeFiles/Fw_FilePacket.dir/DataPacket.cpp.obj CMakeFiles/Fw_FilePacket.dir/EndPacket.cpp.obj CMakeFiles/Fw_FilePacket.dir/FilePacket.cpp.obj CMakeFiles/Fw_FilePacket.dir/Header.cpp.obj CMakeFiles/Fw_FilePacket.dir/PathName.cpp.obj CMakeFiles/Fw_FilePacket.dir/StartPacket.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_FilePacket.a

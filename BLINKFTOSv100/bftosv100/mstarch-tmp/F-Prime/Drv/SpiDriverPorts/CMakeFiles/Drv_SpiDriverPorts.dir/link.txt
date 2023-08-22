@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libDrv_SpiDriverPorts.a CMakeFiles/Drv_SpiDriverPorts.dir/SpiReadWritePortAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libDrv_SpiDriverPorts.a

@@ -1,3 +1,1 @@
-c_deploy.cpp:16:15:deploy_handle_t* mydeploy_deploy_create()	1
-c_deploy.cpp:21:6:void mydeploy_deploy_setinputs(deploy_handle)	1
-c_deploy.cpp:26:6:void mydeploy_deploy_destroy(deploy_handle)	2
+c_deploy.cpp:12:6:void launch_topology(UART_HandleTypeDef*)	1

@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_Framer.a CMakeFiles/Svc_Framer.dir/Framer.cpp.obj CMakeFiles/Svc_Framer.dir/FramerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_Framer.a

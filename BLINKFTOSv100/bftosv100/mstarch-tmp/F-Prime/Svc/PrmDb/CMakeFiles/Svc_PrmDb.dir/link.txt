@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_PrmDb.a CMakeFiles/Svc_PrmDb.dir/PrmDbImpl.cpp.obj CMakeFiles/Svc_PrmDb.dir/PrmDbComponentAc.cpp.obj CMakeFiles/Svc_PrmDb.dir/PrmDb_PrmReadErrorEnumAc.cpp.obj CMakeFiles/Svc_PrmDb.dir/PrmDb_PrmWriteErrorEnumAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_PrmDb.a

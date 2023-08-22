@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libFw_Test.a CMakeFiles/Fw_Test.dir/String.cpp.obj CMakeFiles/Fw_Test.dir/UnitTestAssert.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libFw_Test.a

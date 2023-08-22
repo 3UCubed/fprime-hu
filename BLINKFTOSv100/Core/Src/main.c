@@ -156,10 +156,7 @@ int main(void)
   MX_USB_OTG_FS_PCD_Init();
   MX_USB_OTG_HS_PCD_Init();
   /* USER CODE BEGIN 2 */
-
-  // nothing 4
-
-
+  launch_topology(&huart1);
   /* USER CODE END 2 */
 
   /* Infinite loop */

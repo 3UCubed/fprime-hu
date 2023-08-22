@@ -1,0 +1,2 @@
+/opt/tools/bin/arm-none-eabi-ar qc ../../../lib/freertosstm32/libSvc_TlmPacketizer.a CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.obj CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.obj
+/opt/tools/bin/arm-none-eabi-ranlib ../../../lib/freertosstm32/libSvc_TlmPacketizer.a
